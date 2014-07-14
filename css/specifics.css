@@ -1,0 +1,60 @@
+.navbar{
+    margin-top: 50px;
+}
+
+h2{
+    color: #F60000;
+}
+
+h1{
+    color: #000033;
+    margin-top: 20px;
+}
+body{
+    font-family: "Open Sans", Arial;
+}
+li .active{
+    color: red;
+}
+.tegekkebox{
+    background-image: url('../img/background.jpeg');
+    background-position: center;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.center-wrapper{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.content-center{
+    text-align: center;
+}
+
+.solid-height{
+    height: 100px;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+    background-color: transparent;
+    box-shadow: none;
+    color: #F60000;
+}
+
+table, th, td, tr{
+    border: 1px solid black;
+}
+
+td{
+    width: 20%;
+}
+
+a{
+    outline: 0;
+}
+
+input::-moz-focus-inner { 
+  border: 0; 
+}

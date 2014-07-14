@@ -1,0 +1,54 @@
+---
+navigation:
+- text: Home
+  url: /index.html
+- text: Voor wie?
+  url: /voorwie.html
+- text: Aanpak
+  url: /aanpak.html
+- text: Over ons
+  url: /overons.html
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RI&amp;E voor Veiligheidsregio's</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="css/specifics.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="clearfix">
+          <a class="brand" href="index.html">Veilig werken, denken, doen</a>
+          <ul class="nav pull-right">
+
+            {% for link in page.navigation %}
+              <li {% if page.url == link.url %}class="active" {% endif %}>
+              <a href="{{link.url}}">{{link.text}}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span12 tegekkebox">
+        </div>
+      </div>
+      {{ content }}
+    </div>
+
+
+
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
