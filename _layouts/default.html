@@ -29,10 +29,15 @@ navigation:
   </head>
   <body>
     <div class="container">
-      <div class="navbar">
+      <div class="row">
+        <div class="span12">
+          <h1>Veilig werken, denken, doen</h1>
+        </div>
+      </div>
+      <div class="navbar warning">
         <div class="clearfix">
-          <a class="brand" href="index.html">Veilig werken, denken, doen</a>
-          <ul class="nav pull-right">
+          <!--<a class="brand" href="index.html">Veilig werken, denken, doen</a>-->
+          <ul class="nav">
 
             {% for link in page.navigation %}
               <li {% if page.url == link.url %}class="active" {% endif %}>
