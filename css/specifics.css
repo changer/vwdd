@@ -47,14 +47,23 @@ table, th, td, tr{
     border: 1px solid black;
 }
 
-td{
-    width: 20%;
-}
-
 a{
     outline: 0;
 }
 
 input::-moz-focus-inner { 
   border: 0; 
+}
+
+.aanmeldbox{
+    background-color: white;
+    border-radius: 4px;
+
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    width: auto;
 }
