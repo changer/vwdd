@@ -32,8 +32,48 @@ body{
 }
 
 
-.tegekkebox{
-    background-image: url('../img/background.jpeg');
+.tegekkebox1{
+    background-image: url('../img/wallpaper1.jpg');
+    background-position: center;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.tegekkebox2{
+    background-image: url('../img/wallpaper2.jpg');
+    background-position: center;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.tegekkebox3{
+    background-image: url('../img/wallpaper3.jpg');
+    background-position: center;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.tegekkebox4{
+    background-image: url('../img/wallpaper4.jpg');
+    background-position: center;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.tegekkebox5{
+    background-image: url('../img/wallpaper5.jpg');
+    background-position: center;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.tegekkebox6{
+    background-image: url('../img/wallpaper6.jpg');
     background-position: center;
     height: 300px;
     border-radius: 5px;
@@ -92,5 +132,18 @@ table{
 }
 
 strong {
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.red-link{
+    color: red;
+    text-decoration: underline;
+}
+
+.logo{
+    margin: 0px 0px 20px 0px;
+}
+
+.logoklein{
+    height: 50px;
 }
