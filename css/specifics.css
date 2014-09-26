@@ -140,6 +140,11 @@ strong {
     text-decoration: underline;
 }
 
+.red{
+    color: red;
+
+}
+
 .logo{
     margin: 0px 0px 20px 0px;
 }
